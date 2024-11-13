@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Create New Event" icon-name="action:new_event">
+        <div class="slds-m-around_medium">
+            <lightning-input label="Event Name" value={eventName} onchange={handleInputChange}
+                data-id="eventName"></lightning-input>
+            <lightning-input type="date" label="Event Date" value={eventDate} onchange={handleInputChange}
+                data-id="eventDate"></lightning-input>
+            <lightning-input label="Location" value={location} onchange={handleInputChange}
+                data-id="location"></lightning-input>
+            <lightning-input type="number" label="Maximum Capacity" value={maxCapacity} onchange={handleInputChange}
+                data-id="maxCapacity"></lightning-input>
+            <lightning-button label="Create Event" onclick={handleEventCreation} variant="brand"></lightning-button>
+        </div>
+    </lightning-card>
+</template>
