@@ -1,0 +1,4 @@
+Participant Name (Text)
+Email (Email)
+Event (Lookup to Event object)
+Status (Picklist with values: Registered, Approved, Denied)
