@@ -1,4 +1,0 @@
-Event Name (Text)
-Event Date (Date)
-Location (Text)
-Maximum Capacity (Number)
